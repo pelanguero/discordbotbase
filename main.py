@@ -34,7 +34,7 @@ async def player(ctx, arg):
         pro = jugador(name[1:])
     else:
         pro = jugador(name)
-    await ctx.send("Nombre:"+pro["name"]+"/n"+"Nombre:"+pro["name"]+"/n")
+    await ctx.send("Nombre: "+pro["name"]+"\n"+"THlvl: "+str(pro["townHallLevel"])+"\n"+"BHlvl: "+str(pro["builderHallLevel"])+"\n"+"XPlvl: "+str(pro["expLevel"])+"\n")
     pass
 
 # @client.event
